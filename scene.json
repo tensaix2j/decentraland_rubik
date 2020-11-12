@@ -1,0 +1,45 @@
+{
+  "display": {
+    "title": "Rubik Fun",
+    "favicon": "favicon_asset"
+  },
+  "contact": {
+    "name": "tensaix2j",
+    "email": ""
+  },
+  "owner": "",
+  "scene": {
+    "parcels": [
+      "69,-123"
+    ],
+    "base": "69,-123"
+  },
+  "communications": {
+    "type": "webrtc",
+    "signalling": "https://signalling-01.decentraland.org"
+  },
+  "policy": {
+    "contentRating": "E",
+    "fly": true,
+    "voiceEnabled": true,
+    "blacklist": []
+  },
+  "main": "bin/game.js",
+  "tags": [],
+  "spawnPoints": [
+    {
+      "name": "spawn1",
+      "default": true,
+      "position": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "cameraTarget": {
+        "x": 8,
+        "y": 1,
+        "z": 8
+      }
+    }
+  ]
+}
